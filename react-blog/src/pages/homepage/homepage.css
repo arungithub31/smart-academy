@@ -1,0 +1,266 @@
+.home{
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   box-sizing: border-box;
+   
+}
+.home-block1{
+    width: 100%;
+    color: white;
+    background-color: rgb(44, 77, 244);
+    display: flex;
+    justify-content: center;
+}
+.block1-left-1{
+    flex: 6;
+    padding:100px 10px  200px 100px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.header-1{
+font-size:50px;
+padding: 0px 40px  0px 40px;
+color: white;
+
+}
+
+
+.block1-left-2{
+    padding: 40px 40px;
+    font-size:20px;
+    
+}
+.block1-left-3{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+.block1-right-1{
+    flex: 6;
+    background-color: rgb(44, 77, 244);;
+    padding:100px 20px;
+    display: flex
+}
+
+.homeImage1{
+   
+    width:550px;
+    height:330px;
+   
+}
+.container{
+    margin: 30px;
+    box-sizing: border-box;
+}
+ /* block2    */
+
+.home-block2{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.block2-left-1{
+    flex: 6;
+    background-color: rgb(255, 255, 255);;
+    padding:50px 0px 10px 150px;
+    display: flex
+}
+.homeImage2{
+    width:550px;
+    height:330px;
+
+}
+.block2-right-1{
+    flex: 6;
+    background-color: rgb(255, 255, 255);;
+    padding:50px 20px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.header1-b2{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(72, 72, 72);
+    
+}
+.header2-b2{
+    font-size:40px;
+    font-weight:bold;
+    color: rgb(72, 72, 72);
+}
+.block2-right-2-1{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(72, 72, 72);
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    
+}
+.block2-right-2-2{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color:  white;
+    background-color:rgb(44, 77, 244);
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+.header2{
+    text-align: center;
+    font-size:40px;
+    font-weight:bold;
+    color: rgb(72, 72, 72);
+    padding: 40px;
+}
+
+.home-block3{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 4em 0em 5em;
+    font-size:25px;
+    font-weight:bold;
+    color: rgb(72, 72, 72);
+}
+.container-b3{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em 0em 1em;
+justify-content: space-between;
+   
+}
+.homeImage3{
+    width:350px;
+    height: 250px;
+    padding-bottom: 10px;
+}
+.b3-span{
+    padding: 1em 0em 1em 0em;
+    font-size: 18px;
+}
+.view-courses-button-wrap{
+    padding: 2em;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+.view-courses-button{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color:  white;
+    background-color:rgb(44, 77, 244);
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+   
+}
+
+.home-block4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.block4-left{
+    background-color:rgb(44, 77, 244); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7.5em;
+
+}
+.block4-left-1{
+    font-size:50px;
+
+}
+.block4-left-2{
+    font-size: 18px;
+    padding:  2em  0em;
+    
+}
+.call-number{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(44, 77, 244); 
+    background-color: white;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-left: 50px;
+    border: none;
+}
+.homeImag4{
+    width: 550px;
+    height: 430px;
+}
+
+.home-block5{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.homeImage5{
+width: 280px;
+height:400px;
+padding: .6em;
+}
+
+.home-block6{
+    margin: 50px 0px 50px 0px;
+    background-color: rgb(44, 77, 244); 
+    padding: 2em 11em 2em 10em;
+    
+}
+.home-block6-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.homeImage6{
+width: 600px;
+height: 400px;
+}
+.block6-right{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+.block6-right-1{
+    color: white;
+    font-size:50px;
+    text-align: center;
+}
+.block6-button{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(44, 77, 244); 
+    background-color: white;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 15px 0px 10px 230px;
+    border: none;
+}

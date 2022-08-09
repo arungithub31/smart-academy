@@ -1,0 +1,104 @@
+.top {
+    width: 100%;
+    height: 150px;
+    color:rgb(240, 240, 240);
+    background-color: rgb(44, 77, 244);
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 20px;
+    box-sizing: border-box;
+
+    
+  }
+  
+  .topLeft{
+    
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  .topRight {
+    flex: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .toplogo {
+    font-size: 40px;
+    margin-right: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+  
+  }
+  .toplogo-sub {
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .topList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .topListItem 
+  {
+    margin-left: 2em;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: baseline;
+  }
+  .topListItem-emergency {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+   
+    list-style: none;
+  }
+  .topListItem-button{
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 3px;
+    margin-left: 2em;
+  }
+  
+  .topListItem:hover
+  
+  {
+      color: rgb(0, 0, 0);
+  }
+ 
+  .topListItem-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: azure;
+}
+
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1027px) {
+    .logo {
+      font-size: 20px;
+    }
+    .menu-list li a {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }
